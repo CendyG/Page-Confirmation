@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, sans-serif;
+  width: 100%;
+  background-color: #F9F9F9;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+header {
+  width: 100%;
+  padding: 0px 112px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+nav {
+  background-color: white;
+  height: 101px;
+  width: 100%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* -------job listing-------- */
+
+.job-listing {
+  width: 100%;
+  max-width: 497px;
+  margin: 2px 0 0;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Adjust as needed */
+  overflow-y: scroll;
+  height: 89vh;
+
+  /* WebKit */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit (Chrome, Safari) */
+}
+}
+
+
+.job-title {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Times, serif;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+
+.location {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Times, serif;
+  font-weight: 600;
+  line-height: 21px;
+  color: #C9DFEE;
+
+}
+
+
+.salary {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', Times, serif;
+  font-weight: 600;
+  line-height: 21px;
+  color: #C9DFEE;
+
+}
+/* Styling for the line */
+.underline {
+  border: none;
+  border-top: 1px solid #F2F1EE; 
+  margin-top: 8px;
+  margin-bottom: 10px;
+  margin-left: -35px;
+  width: 510px;
+}
+
+
+.job-details {
+  margin-bottom: 20px;
+}
+
+.job-details ul {
+  padding-inline-start: 20px; /* Adjust this value as needed */
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.subheading {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 21px;
+  font-family: 'Open Sans', Times, serif;
+}
+
+.subheading_par {
+  font-size: 14px;
+  /* margin-top: 30px; */
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 21px;
+  font-family: 'Inter', Times, serif;
+}
+/*---------------------------------*/
+ .box {
+    width: 361px;
+    height: 154px;
+    top: 211px;
+    left: 789px;
+    position: absolute;
+    border: none; 
+}
+
+.check-img{
+  margin-left: 155px;
+  margin-right: 156px;
+  margin-bottom: 20px;
+
+}
+
+/*-----------------*/
+.applying{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+.confirmation{
+  padding-top: 6px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #AEAEAA;
+}
+.email{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #548BAB;
+}
+/*--------------------Button---------------------------*/
+
+.my-button {
+  width: 200px;
+  height: 60px;
+  top: 400px;
+  left: 869px;
+  gap: 0px;
+  position: absolute;
+  background-color: white;
+  color: #548BAB;
+  border: 2px solid #548BAB;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px 0px 0px 0px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+}
+.my-button img {
+  width: 16px; 
+  height: 16px;
+  margin-left: 5px; 
+  vertical-align: middle;
+}
+
+/*-------------------Footer-----------------------*/
+.bott {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bott1 {
+  margin-right: auto;
+  width: auto;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.bott2 {
+  margin-left: auto;
+  margin-right: 50px ;
+}
